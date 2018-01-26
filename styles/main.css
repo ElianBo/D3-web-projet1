@@ -1,0 +1,124 @@
+body{font-family: 'Oswald', sans-serif;
+background-color: #F0F8FF;
+
+}
+
+
+
+header{
+  background-image: url('images/bg-image-header.jpg');
+  min-height: 75vh ;
+  background-color: rgb(0, 0, 0);
+  background-repeat: no-repeat;
+  background-position: top center ;
+  background-size: ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2em;
+
+
+}
+
+section{font-family: 'Bungee', cursive;
+
+}
+
+.header-content-block{
+  background-color: white ;
+  padding: 2em ;
+  opacity: 0.5;
+  border-radius: 32px 32px 32px 32px;
+-moz-border-radius: 32px 32px 32px 32px;
+-webkit-border-radius: 32px 32px 32px 32px;
+
+
+}
+
+.header-content-block h1 {
+font-size: 4em ;
+}
+
+#bio {font-family: 'Bungee', cursive;
+
+}
+
+.bio-content-block {
+  margin-left: 20em;
+  margin-top: 1em;
+
+}
+
+#comp {margin-top: 60px;
+
+
+}
+
+#portfolio {
+  margin-bottom: 2em;
+
+}
+
+.portfolio-content-block {
+  display: flex;
+
+
+
+}
+
+.comp-section-content{
+  display: flex;
+  justify-content: space-around;
+}
+
+
+.comp-content {
+  margin: 20px;
+  width: auto;
+  background-color: #FFE4C4;
+}
+
+.comp-content p {
+  padding: 1em;
+}
+
+.comp-content img {
+  width: 100%;
+}
+
+.comp-content a {
+  display: block;
+  padding: 1em;
+  float: right;
+
+}
+
+h1 {
+  margin-bottom: 20px;
+  font-family: 'Bungee', cursive;
+  font-size: 2em;
+}
+
+footer {
+
+
+}
+
+h9 {
+  margin-left: 18em;
+
+}
+
+h2 {
+  font-family: 'Bungee', cursive;
+  margin-bottom: 4em;
+  margin-top: 1em;
+}
+
+p {
+  font-family: 'Oswald', sans-serif;
+}
+
+.adress {
+
+}
