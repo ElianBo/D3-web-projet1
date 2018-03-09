@@ -1,5 +1,15 @@
-.char1 {font-size: 4em;
+.char1 {font-size: 3em;
 color: red;}
+
+.char1:hover {font-size: 4em;
+color: blue;}
+
+.char4 {color: red;}
+
+.char4:hover { font-size: 2em;
+color: yellow;}
+
+
 
 body{font-family: 'Oswald', sans-serif;
 background-color: #F0F8FF;
