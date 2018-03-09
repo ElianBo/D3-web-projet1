@@ -6,7 +6,15 @@
     <link rel="stylesheet" href="styles/reset.css">
 
     <link rel="stylesheet" href="styles/main.css">
-    <link href="https://fonts.googleapis.com/css?family=Bungee|Oswald" rel="stylesheet">
+
+<link rel="stylesheet" href="styles/colorbox.css">
+  <link href="https://fonts.googleapis.com/css?family=Bungee|Oswald" rel="stylesheet">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+
+<script src="scripts/jquery-3.3.1.min.js"></script>
+    <script src="scripts/jquery.colorbox-min.js"></script>
+    <script src="scripts/jquery.lettering.js"></script>
+
   </head>
 
   <body>
@@ -49,19 +57,26 @@
 
       <div class="comp-section-content">
           <div class="comp-content">
-            <img src="images/pinceau.jpg" alt="">
+
+
+            <a class="gallery" href="images/pinceau.jpg"><img src="images/pinceau.jpg" alt="">
+            </a>
+
+
             <h2>Habilité</h2>
             <p>Je sais me servir d'un crayon, dessiner et utiliser différentes techniques pour réaliser différents projets.</p>
             <a href="https://fr.wiktionary.org/wiki/habilit%C3%A9">Read More</a>
           </div>
           <div class="comp-content">
-            <img src="images/montre.jpg" alt="">
+            <a class="gallery" href="images/montre.jpg"><img src="images/montre.jpg" alt="">
+            </a>
             <h2>Reflexion</h2>
             <p>Je suis calme et sais me poser les bonnes questions pour réfléchir à de bonnes idées.</p>
             <a href="https://fr.wiktionary.org/wiki/r%C3%A9flexion">Read More</a>
           </div>
           <div class="comp-content">
-            <img src="images/mac.jpg" alt="">
+            <a class="gallery" href="images/mac.jpg"><img src="images/mac.jpg" alt="">
+            </a>
             <h2>Maîtrises des Logiciels</h2>
             <p>Je maîtrise les logiciels de la suite adobe comme Photoshop, InDesign et Illustrator. </p>
             <a href="http://www.adobe.com/fr/creativecloud.html?mv=search&s_kwcid=AL!3085!3!226068679351!e!!g!!adobe&ef_id=WeZzngAAAICjsXxO:20171224180302:s">Read More</a>
@@ -122,6 +137,10 @@
 
                         </footer>
 
-
+                        <script>
+                        jQuery(document).ready(function () {
+                          jQuery('a.gallery').colorbox({ opacity:0.5 , rel:'group1' });
+                        });
+                      </script>
   </body>
 </html>

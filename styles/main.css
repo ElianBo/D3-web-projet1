@@ -24,6 +24,8 @@ section{font-family: 'Bungee', cursive;
 
 }
 
+
+
 .header-content-block{
   background-color: white ;
   padding: 2em ;
@@ -74,7 +76,7 @@ font-size: 4em ;
 
 .comp-content {
   margin: 20px;
-  width: auto;
+  flex: 1 0 200px;
   background-color: #FFE4C4;
 }
 
